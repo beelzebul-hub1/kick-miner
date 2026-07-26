@@ -1,0 +1,26 @@
+{
+  "start_message": "👋 <b>Добро пожаловать в Kick Miner!</b>\n\nЯ помогу вам отслеживать фарминг поинтов.\nИспользуйте меню ниже для управления.",
+  "status_active": "🟢 <b>Статус бота:</b> АКТИВЕН\n\n📺 <b>Фарминг активен для:</b>\n{streamers}\n\n🕒 <b>Последнее обновление:</b> {last_update}\n⚡️ <b>Примерная скорость:</b> ~{rate} поинтов/час",
+  "status_inactive": "🔴 <b>Статус бота: НЕАКТИВЕН</b>\n\nБот не запущен или возникли ошибки подключения.",
+  "balance_info": "💰 <b>Баланс для {streamer}:</b>\n\n💎 Всего: <code>{amount}</code> поинтов\n🕒 Инфо от: {time}",
+  "balance_no_streamers": "⚠️ <b>Список пуст</b>\nВы не отслеживаете ни одного стримера.",
+  "balance_streamer_not_found": "⚠️ Стример <b>{streamer}</b> не найден в списке отслеживания.",
+  "restart_confirmation": "🔄 <b>Перезапуск системы...</b>\n\nБот перезагрузится через 5 секунд.",
+  "no_permission": "❌ <b>Доступ запрещен</b>\n\nУ вас нет прав для использования этого бота.",
+  "language_changed": "✅ <b>Язык изменен</b>\n\nТекущий язык: {language}",
+  "help_message": "📚 <b>Доступные команды:</b>\n\n/start - Главное меню\n/status - Статус майнера\n/balance - Баланс поинтов\n/restart - Перезапуск бота\n/help - Помощь",
+  "alert_no_update": "⚠️ <b>ВНИМАНИЕ: Нет поинтов</b>\n\nСтример <b>{streamer}</b> не получал поинты уже {minutes} минут.\nСкоро будет выполнен авто-перезапуск.",
+  "points_updated": "✅ <b>Поинты получены</b>\n\n👤 <b>{streamer}</b>\n➕ {amount} поинтов\n💎 Всего: {total}",
+  "startup_notification": "🚀 <b>Бот успешно запущен</b>\n\nАктивный фарминг для:\n{streamers}",
+  "restart_notification": "🔄 <b>Перезагрузка...</b>\n\nСистема перезапускается для исправления ошибок.",
+  "streamer_started": "✅ <b>Фарминг начат</b>\n\n👤 <b>{streamer}</b>\n📡 WebSocket подключен.",
+  "streamer_error": "❌ <b>Ошибка: {streamer}</b>\n\n<pre>{error}</pre>\n\nПробую переподключиться...",
+  "monitoring_active": "👀 <b>Мониторинг включен</b>\nАвто-перезапуск через 10 минут простоя.",
+  "not_enough_permissions": "❌ <b>Ошибка прав</b>\nЭта команда доступна только админам.",
+  "btn_status": "📊 Статус",
+  "btn_balance": "💰 Баланс",
+  "btn_help": "❓ Помощь",
+  "btn_restart": "🔄 Перезапуск",
+  "btn_accounts": "👥 Аккаунты"
+}
+}

@@ -1,0 +1,6 @@
+rnet==2.4.2
+loguru==0.7.3
+brotli==1.2.0
+python-telegram-bot==22.5
+curl-cffi==0.7.3
+flask==3.1.0

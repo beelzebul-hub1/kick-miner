@@ -1,0 +1,90 @@
+{
+  "Language": "en",
+  "Debug": false,
+  "WebDashboard": {
+    "enabled": true,
+    "port": 5000
+  },
+  "RenderDashboard": {
+    "enabled": true,
+    "url": "https://render-1-ethy.onrender.com/api/update",
+    "interval": 30
+  },
+  "Telegram": {
+    "enabled": false,
+    "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "chat_id": "YOUR_TELEGRAM_USER_ID",
+    "allowed_users": [
+      123456789
+    ]
+  },
+  "Discord": {
+    "enabled": false,
+    "webhook_url": "https://discord.com/api/webhooks/XXXX/YYYY",
+    "username": "Baillora KickMiner",
+    "avatar_url": "",
+    "notify_points": true,
+    "notify_status_change": true,
+    "notify_errors": true,
+    "notify_startup": true,
+    "min_points_gain": 10,
+    "color_success": 3461464,
+    "color_info": 5793266,
+    "color_warning": 16763904,
+    "color_error": 15746887
+  },
+  "Proxy": {
+    "enabled": false,
+    "url": "socks5://user:password@host:port"
+  },
+  "Accounts": [
+    {
+      "alias": "zanxx32",
+      "token": "394368525|clKAy8oE4BegnF4sY3bXne2gBpoUgnQJF62Sr2PL",
+      "proxy": null,
+      "streamers": [
+        "maplesyrupy",
+        "toebuu",
+        "waffletrades"
+      ],
+      "max_concurrent": 3
+    },
+    {
+      "alias": "zanxxx32",
+      "token": "396743061|uRfycdtHuG820Eh6YndVzwNjYMz3yHefQoBe9Sr9",
+      "proxy": null,
+      "streamers": [
+        "maplesyrupy",
+        "toebuu",
+        "waffletrades"
+      ],
+      "max_concurrent": 3
+    },
+    {
+      "alias": "beelzebulI",
+      "token": "394369253|UWm1yFfkGTRJTAigL8GzBk2v3krGIshNPIMjSFf5",
+      "proxy": "socks5://5.255.117.127:1080",
+      "streamers": [
+        "toebuu",
+        "waffletrades",
+        ""
+      ],
+      "max_concurrent": 2
+    },
+    {
+      "alias": "beelzebulll2",
+      "token": "389569071|Q42ybkFG0SZyCtjNtQi2nLe9vVdvmNomdHGoAfg3",
+      "proxy": "socks5://5.255.113.177:1080",
+      "streamers": [
+        "toebuu",
+        "waffletrades",
+        ""
+      ],
+      "max_concurrent": 2
+    }
+  ],
+  "Check_interval": 120,
+  "Reconnect_cooldown": 600,
+  "Connection_stagger_min": 3,
+  "Connection_stagger_max": 8
+}
